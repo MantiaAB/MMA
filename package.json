@@ -88,7 +88,7 @@
     },
     "protocols": [
       {
-        "name": "Moodle Mobile URL",
+        "name": "Moodle Mantia App URL",
         "schemes": [
           "moodlemobile"
         ],
