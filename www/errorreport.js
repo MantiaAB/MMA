@@ -22,11 +22,14 @@
     ignoredFiles = ['www/index.html#/site/mod_page', 'www/index.html#/site/mod_resource', 'www/index.html#/site/mm_course-section'],
     reportedOnDBReady = false;*/
 	
-var appVersion = '1.0',
+/*var appVersion = '1.0',
     reportInBackgroundName = 'mmCoreReportInBackground',
     errors = [],
     ignoredFiles = ['www/index.html#/site/mod_page', 'www/index.html#/site/mod_resource', 'www/index.html#/site/mm_course-section'],
-    reportedOnDBReady = false;
+    reportedOnDBReady = false;*/
+	
+	
+var appVersion = '0.1';
 
 /**
  * Check if error should be reported in background. If setting is not set, a confirm modal will be shown.
@@ -64,7 +67,7 @@ function sendErrorReport(msg, url, lineNumber) {
     /*var reportUrl = 'http://prototype.moodle.net/mobile/feedback/mmfeedback.php?message=' + encodeURIComponent(msg) +
                     '&file=' + encodeURIComponent(url) + '&line=' + encodeURIComponent(lineNumber) + '&appv=' +
                     encodeURIComponent(appVersion) + '&bg=1';*/
-	var reportUrl = 'www.mantia.es;
+	var reportUrl = 'https://www.mantia.es/';
 
     if (window.device) {
         reportUrl = reportUrl + '&platform=' + encodeURIComponent(window.device.platform) +
