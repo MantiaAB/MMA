@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" id="moodle.mantia.app" version="1.1">
   <name>Moodle Mantia App</name>
-  <description>&#xD;
+  <description>;
         Moodle Mantia App&#xD;
     </description>
-  <author href="http://www.mantia.es">&#xD;
-        Moodle Mantia App&#xD;
+  <author href="http://www.mantia.es">;
+        Moodle Mantia App;
     </author>
   <content src="index.html"/>
   <access origin="*"/>

@@ -11,3 +11,4 @@ www/lib
 e2e/build
 /desktop/*
 !/desktop/assets/
+/nbproject/private/
