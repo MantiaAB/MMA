@@ -11,7 +11,7 @@
     "wsextservice" : "local_mobile",
 	"gcmpn": "666666666666",
     "customurlscheme": "moodlemobile",
-    "siteurl": "https://basico.mantia.es",
+    "siteurl": "http://basico.mantia.es",
     "multisitesdisplay": "select",
     "skipssoconfirmation": "false",
     "forcedefaultlanguage": "false",
