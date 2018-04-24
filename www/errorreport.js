@@ -67,7 +67,7 @@ function sendErrorReport(msg, url, lineNumber) {
     /*var reportUrl = 'http://prototype.moodle.net/mobile/feedback/mmfeedback.php?message=' + encodeURIComponent(msg) +
                     '&file=' + encodeURIComponent(url) + '&line=' + encodeURIComponent(lineNumber) + '&appv=' +
                     encodeURIComponent(appVersion) + '&bg=1';*/
-	var reportUrl = 'http://www.basico.mantia.es/';
+	var reportUrl = 'http://www.basico.mantia.es';
 
     if (window.device) {
         reportUrl = reportUrl + '&platform=' + encodeURIComponent(window.device.platform) +
