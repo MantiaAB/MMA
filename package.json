@@ -18,8 +18,10 @@
     }
   ],
   "dependencies": {
-    "electron-windows-notifications": "^1.1.13",
-    "electron-builder-squirrel-windows": "^19.3.0"
+    "@ionic-native/file-transfer": "^4.7.0",
+    "cordova-plugin-file-transfer": "^1.7.1",
+    "electron-builder-squirrel-windows": "^19.3.0",
+    "electron-windows-notifications": "^1.1.13"
   },
   "devDependencies": {
     "appium": "^1.6.0",
@@ -115,6 +117,11 @@
     },
     "snap": {
       "confinement": "classic"
+    }
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-file-transfer": {}
     }
   }
 }
