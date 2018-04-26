@@ -3,12 +3,14 @@
   "version": "3.4.2",
   "description": "The official app for Moodle.",
   "author": {
-    "name": "Moodle Pty Ltd.",
+    /*"name": "Moodle Pty Ltd.",*/
+	"name": "Moodle Mantia App",
     "email": "mobile@moodle.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/moodlehq/moodlemobile2.git"
+    /*"url": "https://github.com/moodlehq/moodlemobile2.git"*/
+	"url": "https://github.com/MantiaAB/MMA.git"
   },
   "license": "Apache-2.0",
   "licenses": [
@@ -21,7 +23,7 @@
     "@ionic-native/file-transfer": "^4.7.0",
     "cordova-android": "^6.3.0",
     "cordova-android-support-gradle-release": "^1.3.0",
-    "cordova-plugin-camera": "git+https://github.com/apache/cordova-plugin-camera.git",
+    /*"cordova-plugin-camera": "git+https://github.com/apache/cordova-plugin-camera.git",*/
     "cordova-plugin-file": "^5.0.0",
     "cordova-plugin-file-transfer": "^1.7.1",
     "cordova-plugin-media": "^5.0.2",
@@ -83,8 +85,10 @@
   },
   "main": "www/electron.js",
   "build": {
-    "appId": "com.moodle.moodledesktop",
-    "productName": "Moodle Desktop",
+    /*"appId": "com.moodle.moodledesktop",
+    "productName": "Moodle Desktop",*/
+	"appId": "moodle.mantia.app",
+    "productName": "Moodle Mantia App",
     "files": [
       "!desktop",
       "!**/e2e",
