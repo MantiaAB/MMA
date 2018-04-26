@@ -62,6 +62,12 @@
         name="onload"
         value="true" />
 </feature>
+
+
+<feature name="SplashScreen">
+    <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+</feature>
+
 	
     <preference name="AndroidPersistentFileLocation" value="Compatibility" />
     <preference name="iosPersistentFileLocation" value="Compatibility" />
